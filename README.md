@@ -53,7 +53,7 @@ tidy<-subset %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 #write tidy
 write.table(tidy,"tidy.txt",row.names=FALSE)
 
-
+The following features mean and standard deviation were summarized for each subject and activity:
 Feature Selection 
 =================
 
