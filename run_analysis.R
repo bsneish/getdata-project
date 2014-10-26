@@ -1,3 +1,6 @@
+#library
+library(dplyr)
+library(plyr)
 #read in files
 features<-read.table("UCI HAR Dataset/features.txt")
 actname<-read.table("UCI HAR Dataset/activity_labels.txt")
